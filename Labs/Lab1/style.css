@@ -1,14 +1,14 @@
 body {
-    margin: 1em 5%;
-
+    margin: 1em 1%;
+    display:flex;
+    justify-content: center;
 }
 
 
 
 .container {
-    justify-content: center;
-    margin-top: 10em;
-    margin-left: 40em;
+    flex-direction: column;
+    display: flex;
     width: 450px;
 }
 
@@ -16,24 +16,25 @@ body {
 
 
 img {
-    height: 180px;
-    width: 50%;
-    margin-left: 10em;
+    scale: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .h1 {
+    margin-top: -5em;
     text-transform: uppercase;
     margin-left: 6em;
     font-weight: 600;
+
     display: block-size;
 }
 
 .loginPage {
-
+    display: flex;
+    justify-content: center;
     margin-top: 0.65em;
     font-size: 2.25em;
-
-
 }
 
 .email {
@@ -52,6 +53,48 @@ img {
     width: 100%;
 }
 
-.hehe {
-    margin-left: auto;
+
+
+.welcome{
+    font-size: 20px;
+}
+
+.hehe{
+    display: flex;
+    justify-content: center;
+}
+
+.hehe a{
+    text-decoration: underline;
+    color: black;
+}
+
+.hehe a:hover{
+    font-size: 1.3em;
+    cursor:pointer;
+}
+
+.formy{
+    text-transform: uppercase;
+}
+
+.passwordForget{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton button{
+    font-weight: bolder;
+    text-transform: uppercase;
+    scale: 150%;
+    border-color: black;
+    margin-top: 1.50em;
+    width: 55%;
 }
