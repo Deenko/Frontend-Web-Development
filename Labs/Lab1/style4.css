@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2{
+    display: flex;
+    color: blue;
+    justify-content: center;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+}
+
+.courseInfo{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   font-weight: bold;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+.courseCode{
+    border: 1px solid black;
+}
+
+.courseName{
+    border: 1px solid black;
+    display: flex;
+}
+
+.courseETCS{
+    border: 1px solid black;
+    display: flex;
+}
+
+
+.FENMS{
+    display: flex;
+    border: 1px solid black;
+}
+
+.FOFD{
+    max-width: 3px;
+    display: flex;
+    border: 1px solid black;
+}
