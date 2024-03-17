@@ -10,8 +10,6 @@
 
 <body>
     <div class="form">
-
-
         <div class="burchImage">
             <img src="https://th.bing.com/th/id/OIP.J2Fj8sEf7PwY26F0UUQNdAHaHa?rs=1&pid=ImgDetMain">
         </div>
@@ -22,14 +20,152 @@
             <H1>REGISTRATION FORM</H1>
         </div>
 
-        <form class="registration">
-            <div class="firstName">
-                <label for="firstname">First name: </label>
-                <input type="text" name="firstname" id="firstname" required placeholder="Enter your name">
+        <form>
+          
+
+                <div class="firstlastname">
+
+                
+                <div class="firstName">
+                    <label for="firstname">First name: </label>
+                    <input type="text" name="firstname" id="firstname" required placeholder="Enter your name">
+                </div>
+
+
+                <div class="lastName">
+                    <label for="lastname">Last name: </label>
+                    <input type="text" name="lastname" id="lastname" required placeholder="Enter your last name">
+                </div>
+                </div>
+          
+
+
+            <div class="username">
+
+
+                <div class="usernameText">
+                    <label for="userName">Username: </label>
+                </div>
+
+
+                <div class="usernameField">
+                    <input type="text" name="userName" id="userName" required>
+                </div>
+
             </div>
-            <div class="lastName">
-                <label for="lastname">Last name: </label>
-                <input type="text" name="lastname" id="lastname"required placeholder="Enter your last name">
+
+            <div class="password">
+
+
+                <div class="passwordText">
+                    <label for="passWord">Password: </label>
+                </div>
+
+
+                <div class="passwordField">
+                    <input type="password" required>
+                </div>
+            </div>
+
+            <div class="dateofbirth">
+
+
+                <div class="dateText">
+                    <label for="date">Date of birth: </label>
+                </div>
+
+
+                <div class="dateField">
+                    <input type="date" name="date" id="date" required>
+                </div>
+
+
+            </div>
+
+
+            <div class="placeOfBirth">
+
+
+                <div class="pobField">
+                    <label for="">Place of birth: </label>
+                </div>
+                <div class="pobField">
+                    <input type="text" name="" id="" required>
+                </div>
+            </div>
+
+            <div class="gender">
+                <div class="genderText">
+                    <label for="gender">
+                        Gender:
+                    </label>
+                </div>
+
+                <div class="genderField">
+
+                    <div class="male">
+
+                        <label>Male</label>
+                        <input type="radio" id="gender" name="male">
+
+                    </div>
+                    <div class="female">
+
+                        <label>Female</label>
+                        <input type="radio" id="gender" name="male">
+                    </div>
+                    <div class="other">
+                        <label>Other</label>
+                        <input type="radio" id="gender" name="male">
+                    </div>
+                </div>
+            </div>
+
+            <div class="email">
+                <div>
+                    <label for="email">Email: </label>
+                </div>
+
+                <div>
+                    <input type="email">
+                </div>
+            </div>
+
+            <div class="phone">
+                <div>
+                    <label for="phoneNumber">Phone: </label>
+                </div>
+                <div>
+                    <input type="tel">
+                </div>
+            </div>
+
+            <div class="hair">
+                <div><label for="">Hair color: </label></div>
+
+                <div><input type="color" name="" id=""></div>
+            </div>
+
+            <div class="notes">
+                <label>Notes: </label>
+            </div>
+
+            <div class="notesForm">
+                <textarea name="notes" id="notes" cols="150" rows="10"></textarea>
+            </div>
+
+            <div class="recieveNotifications">
+                
+                <input type="checkbox" id="notifications" name="notifications">
+                <label for="notifications">
+                    Recieve notifications
+                </label>
+            </div>
+
+
+
+            <div class="submitButton">
+                <input type="submit" value="Register">
             </div>
         </form>
     </div>

@@ -2,12 +2,13 @@ body{
 margin:1em;
 display: flex;
 justify-content: center;
-background-color: green;
 }
 
 .form{
-    width: 400px;
-    background-color: orange;
+    border: 3px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
 }
 .burchImage{
     display: flex;
@@ -19,7 +20,6 @@ background-color: green;
 }
 
 .h2{
-    margin-top: 1EM;
     display: flex;
     justify-content:  center;
 }
@@ -27,6 +27,11 @@ background-color: green;
 .h1{
     display: flex;
     align-items: start;
+}
+
+.firstlastname{
+    display: flex;
+    justify-content: space-between;
 }
 
 .firstName{
@@ -38,12 +43,114 @@ background-color: green;
 .lastName{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .registration{
-    display:flex;
-    width: 100%;
     justify-content: space-between;
-    background-color: white;
+    display:flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+.username{
+    margin-top: 0.37em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password{
+    margin-top: 0.37em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.dateofbirth{
+    margin-top: 0.373737em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.placeOfBirth{
+    margin-top: 0.72em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender{
+    margin-top: 0.37em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.genderText{
+    display: flex;
+    align-items: center;
+
+}
+
+.genderField{
+
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.male{
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: flex-start;
+
+}
+
+.female{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.other{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.email{
+    margin-top: 0.37em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone{
+    margin-top: 0.37em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hair{
+    margin-top: 0.37em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes{
+    margin-top: 0.37em;
+}
+.notesForm{
+    display: flex;
+    justify-content: center;
+}
+
+.recieveNotifications{
+    margin-top: 1.37em;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: flex-end;
 }

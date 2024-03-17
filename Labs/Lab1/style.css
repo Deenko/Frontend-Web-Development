@@ -8,6 +8,9 @@ body {
     flex-direction: column;
     display: flex;
     width: 450px;
+    border-radius: 3px;
+    border-color: black;
+    border-style: solid;
 }
 
 
@@ -29,9 +32,12 @@ body {
 }
 
 .email {
-    margin-top: -0.5;
+    display: flex;
+    flex-direction: column;
+}
+.emailInput{
     padding: 1em;
-    width: 100%;
+    width:93.5%;;
 }
 
 #inputEmail {
@@ -39,9 +45,15 @@ body {
 }
 
 .password {
-    margin-top: -0.5;
+    display: flex;
+    flex-direction:column;
+    margin-top: 1.5em;
+}
+
+.passwordInput{
+    display: flex;
     padding: 1em;
-    width: 100%;
+    width: 93.5%;
 }
 
 
@@ -79,6 +91,8 @@ body {
 .submitButton{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
 }
 
 .submitButton button{
