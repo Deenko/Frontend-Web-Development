@@ -16,45 +16,9 @@ body{
     justify-content: center;
 }
 
-.table{
+.z{
     display: flex;
-    flex-direction: column;
-}
-
-.courseInfo{
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   font-weight: bold;
-}
-
-.firstRow{
-    display: flex;
-    justify-content: center;
     flex-direction: row;
- }
-.courseCode{
-    border: 1px solid black;
-}
-
-.courseName{
-    border: 1px solid black;
-    display: flex;
-}
-
-.courseETCS{
-    border: 1px solid black;
-    display: flex;
-}
-
-
-.FENMS{
-    display: flex;
-    border: 1px solid black;
-}
-
-.FOFD{
-    max-width: 3px;
-    display: flex;
-    border: 1px solid black;
+    justify-content: space-between;
+    background-color: green;
 }
