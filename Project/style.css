@@ -1,35 +1,72 @@
 body{
-    margin-left: 4em;
-    margin-right: 4em;
-    background-color:#E2E2E2;
+    font-family: sans-serif;
+    background-color:black;
+    color: white;
+}
+
+.body{
+    background-color: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F15286163-abstract-background-digital-concept-cybersecurity-shield-anti-virus-malware-spy-protection-cyber-theft-security-on-a-blue-black-background&psig=AOvVaw0SfhXYiVoji49tPB1RHlpf&ust=1711319915933000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPD9-NG5i4UDFQAAAAAdAAAAABAE");
 }
 
 .searchBar{
+    display: flex;
     margin-top: 3em;
-    padding-left: 15em;
+    justify-content: center;
     background-color: green;
     height: 250px;
     max-width:none;
 }
 
+.otherThing{
+    background-color: black;
+}
 
+.it{
+    color: #008aff;
+}
 
 .navbar{
-    margin-top: 1em;
-    background-color:#D0D1D0;
-    border: 1px solid #acacac;
-    border-radius: 0.59em;
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: 85%;
+    width: 100%;
+    position:fixed;
+    margin-top: 0em;
+    background:  rgba(0, 0, 0, 0.55);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+.navbar a:nth-of-type(0):hover{
+    color:white !important;
+    text-transform: lowercase;
+}
+
+.navbar a:hover {
+    color:#008aff;
+    text-shadow:0.5px 0.5px 50px     white;
+}
+
+.navbar button{
+    background:none;
+    color: white;
+    border-radius: 15%;
+    border-color:#008aff
 }
 
 .navbar-brand{
     margin-left: 3.15em;
     font-size: 1.5em;
     text-transform: uppercase;
-    color: #292b2c;
+    color: white;
 }
 
 .navbar-items a{
-    color: #292b2c;
+    color: white;
     margin: 1.37em;
     text-decoration: none;
     text-transform: uppercase;
