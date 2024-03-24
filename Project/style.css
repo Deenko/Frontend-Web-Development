@@ -1,61 +1,73 @@
 body{
-    font-family: sans-serif;
-    background-color:black;
+    background-color: rgba(0, 0, 0, 96%);
     color: white;
+    font-family: "Roboto", sans-serif;
 }
 
-.body{
-    background-color: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F15286163-abstract-background-digital-concept-cybersecurity-shield-anti-virus-malware-spy-protection-cyber-theft-security-on-a-blue-black-background&psig=AOvVaw0SfhXYiVoji49tPB1RHlpf&ust=1711319915933000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPD9-NG5i4UDFQAAAAAdAAAAABAE");
-}
 
-.searchBar{
-    display: flex;
-    margin-top: 3em;
-    justify-content: center;
-    background-color: green;
-    height: 250px;
-    max-width:none;
-}
 
-.otherThing{
-    background-color: black;
-}
 
 .it{
+    font-family: "Roboto", sans-serif;
     color: #008aff;
 }
 
 .navbar{
-    font-size: 16px;
-    font-family: sans-serif;
+    animation:  none !important;
+    font-size: 18px;
+   font-family: "Roboto", sans-serif;
     opacity: 85%;
     width: 100%;
-    position:fixed;
-    margin-top: 0em;
-    background:  rgba(0, 0, 0, 0.55);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.6)); /* Subtle gradient */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
+    margin-bottom: 3em;
+    position: fixed;
+    top: 0;
 }
+
+.welcome h3 {
+    font-family: "Roboto", sans-serif;
+    animation: slideUp 0.5s ease-out;
+    text-shadow: 0.1em 0.1em 1.5em #008aff; /* Text shadow */
+    color: #008aff;
+  }
+
+.welcome{
+    font-family: "Roboto", sans-serif;
+    animation: slideUp 0.5s ease-out;
+    margin-top: 3em;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0.1em 0.1em 1.5em white;
+}
+
 
 .image{
     height: 100%;
     width: 100%;
 }
+
 .navbar a:nth-of-type(0):hover{
     color:white !important;
     text-transform: lowercase;
 }
 
-.navbar a:hover {
+.navbar a:hover { 
     color:#008aff;
-    text-shadow:0.5px 0.5px 50px     white;
-}
+    text-shadow: 0 0 1px white; /* Less intense shadow */
+    transition: all 0.3s ease-in-out; /* Add transition */
+ }
+ 
 
+
+ 
 .navbar button{
     background:none;
     color: white;
-    border-radius: 15%;
-    border-color:#008aff
+    border-radius: 5px;
+    border-color:#008aff;
 }
 
 .navbar-brand{
@@ -65,6 +77,63 @@ body{
     color: white;
 }
 
+.services {
+    font-family: "Roboto", sans-serif;
+    display: flex; /* Makes elements並ぶ (並ぶ - narabu -並ぶ: to line up) horizontally */
+    justify-content: space-around; /* Centers the elements horizontally */
+    width: 85%; /* Adjust width as needed */
+    margin: 3em auto; /* Centers the container horizontally */
+  }
+  .services-container { /* Replace with your container element's class/ID */
+    margin-bottom: 50px; /* Adjust the value for desired spacing */
+  }
+
+ 
+ 
+  .service-item {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px; /* Add a slight round corner for a softer look */
+    background-color: rgb(14, 14, 14, 0.7%); /* Semi-transparent black background */
+    color: white; /* White text for better contrast */
+    animation: slideUp 0.5s ease-in-out; /* Smooth animation over 0.5 seconds */
+    /* Add hover effects, box shadow, etc. as desired */
+  }
+
+  .cont-text{
+    color: #008aff;
+  }
+
+  @keyframes slideUp {
+    0% {
+       transform: translateY(20px); /* Start 20px below initial position */
+       opacity: 0; 
+    }
+    100% {
+       transform: translateY(0px);
+       opacity: 1;
+    }
+ }
+ 
+
+
+  .service-item:hover {
+    box-shadow: 0px 0px 7px 1px #008aff;
+    scale: 101%;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+ }
+
+  .services > .service-item {
+    flex: 1;
+  }
+
+
+  .service-item h3 {
+    margin-bottom: 10px; /* Add some space between heading and text */
+  }
 .navbar-items a{
     color: white;
     margin: 1.37em;
