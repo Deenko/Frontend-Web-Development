@@ -51,6 +51,11 @@ body {
   text-shadow: 0em 0em 30em #008aff;
 }
 
+
+.cys{
+  animation: slideUp 0.5s ease-out;
+}
+
 .lead {
   font-family: "Roboto", sans-serif;
   animation: slideUp 0.5s ease-out;
@@ -63,6 +68,18 @@ body {
 
 }
 
+
+.textlead {
+  font-family: "Roboto", sans-serif;
+  animation: slideUp 0.5s ease-out;
+  margin-top: 0.55em;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 0em 0em 30em #008aff;
+
+}
 .welcome {
   font-family: "Roboto", sans-serif;
   animation: slideUp 0.5s ease-out;
@@ -86,6 +103,10 @@ body {
     align-items: center;
     flex-direction: column;
     text-shadow: 0em 0em 30em #008aff;
+
+    background: -webkit-linear-gradient(#a4d6ff, #008aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    
 }
 
@@ -99,6 +120,36 @@ body {
   text-shadow: 0em 0em 30em #008aff;
   }
 
+  .t4{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .lets-work-together {
+    font-family: "Roboto", sans-serif;
+    margin-top: 3em;
+    color: #ffffff; /* White text on background */
+    text-align: center;
+} 
+
+.lets-work-together h2{
+  font-family: "Roboto", sans-serif;
+  margin-top: 0em;
+  color: #ffffff; /* White text on background */
+  text-align: center;
+} 
+
+
+.button-large {
+    background-color: #008aff; /* Your primary color */
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 .image {
   height: 100%;
   width: 100%;
@@ -108,7 +159,27 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
 
+.getstartedfr{
+  margin-top: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.mainbutton{
+  scale: 110%;
+  margin-top: 1em;
+  min-width: 180px;
+  padding: 8px 70px;
+  max-width: 100%;
+  border-radius: 9px;
+  border: 0;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  box-shadow:#008aff 0 15px 30px -5px;
 }
 
 .email{
@@ -119,6 +190,15 @@ body {
   height: 2px;
   width: 100%;
   background:linear-gradient(45deg, #a4d6ff, #008aff);
+}
+
+
+.bigwhiteline{
+
+    height: 2px;
+    width: 100%;
+    background:linear-gradient(45deg, #a4d6ff, #ffffff);
+  
 }
 .locname{
 display: flex;
@@ -199,25 +279,61 @@ justify-content: center;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 5px;
+  
 }
 
 .service-item i {
   
   animation: slideUp 0.5s ease-out;
   font-size: 40px;
-  color:#008aff;
+  
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 15px;
 }
 
 .service-item2 i {
+
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   animation: slideUp 0.5s ease-out;
   font-size: 40px;
   color:#008aff;
   margin-bottom: 15px;
 }
 
+.service-item h3 {
+
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.service-item2 h3 {
+
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.service-item3 h3 {
+
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
 
 .service-item3 i {
+
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   animation: slideUp 0.5s ease-out;
   font-size: 40px;
   color:#008aff;
@@ -256,12 +372,15 @@ justify-content: center;
 .blu{
   color:#008aff;
   margin-bottom: 1.4em;
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .blue{
   font-weight: 800;
   margin-bottom: 1.2em;
-  color:#008aff;
+  
 }
 
 .ownerT{
@@ -299,7 +418,10 @@ justify-content: center;
 
 
 .cont-text {
-  color: #008aff;
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 @keyframes slideUp {
