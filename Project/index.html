@@ -24,7 +24,10 @@
 <body>
 
 
+    <header>
 
+
+  
     <nav class="navbar narvbar-dark">
         <div class="container">
             <div class="navbar-header">
@@ -33,14 +36,13 @@
             <div class="navbar-items">
                 <a class="navbar-item" href="#gs">Get started</a>
                 <a class="navbar-item" href="#lead">Services </a>
-                <a class="navbar-item" href="#wus">About us </a>
-                <button class="button"> Sign in </button>
+                <a class="navbar-item" href="#wus">About us </a>    
             </div>
         </div>
     </nav>
+  </header>
 
-
-
+  <section>
     <div class="container">
         <div class="containing">
             <p>
@@ -71,8 +73,10 @@
         </div>
     </div>
     </div >
+  </section>
 
 
+  <section>
     <div class="container-fluid">
         <div class="lead">
             <p>
@@ -112,7 +116,9 @@
         </div>
     </div>
 
+</section>
 
+<section>
 
     <div class="container">
         <div class="aboutus">
@@ -131,117 +137,135 @@
             <div class="col-sm-3">
                 <div class="owner">
                     <h3 class="blu">Brilliant Minds</h3>
-                    <p>We started off as an indie company based in Bosnia. Through lots of hard work, and with the help of our most brilliant minds, we have been setting the standard for cyber security for 25 years! </p>
+                    <p>With our top of the line employees, we have managed to climb to top of the ranks of Cybersecurity. Being ranked as the number one cybersecurity firm for seven years in a row, we ensure no data breach, ever.</p>
                 </div>
             </div>
 
             <div class="col-sm-3">
                 <div class="owner">
-                    <h3 class="blu">GRT Pioneers!</h3>
-                    <p>We started off as an indie company based in Bosnia. Through lots of hard work, and with the help of our most brilliant minds, we have been setting the standard for cyber security for 25 years! </p>
+                    <h3 class="blu"  id = "gs">GRT Pioneers!</h3>
+                    <p>GRT is a bleeding-edge technology which ensures 100% secruity. We guarantee it.</p>
                 </div>
             </div>
         </div>
     </div> 
 
 
+</section>
     <div class="container">
         <div class = "getStarted">
             <h1 >
                 Partner With Us!
             </h1>
-            <p id = "gs"> 
+            <p> 
                 Ready to discuss your cybersecurity needs? Contact our security specialists today for a free consultation.
             </p>
         </div>
         <div class="bigblueline"></div>
         
+    
 
 
         <div class="getstartedfr">
-            <p>Here at secureit, we value your time & money. </p>
             
+            <form action="index.html">
+            <p>Secure your website! Click the button below to get started with us! </p>
 
-            <button type="button" class="mainbutton">Get Started!</button>
+
+                
+            <button type="button" class="mainbutton" id="mainbutton" data-bs-toggle="modal" data-bs-target="#registrationModal">
+                Get started
+              </button>
+              
+              <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="registrationModalLabel">Registration Form</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form id="registrationForm">
+                        <div class="mb-3">
+                          <label for="username" class="form-label">Username</label>
+                          <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+          
+            </form>
         </div>
+        
+
+
+        <article>
+            <div class="container">
+                <div class="learnCS">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <H1>What is cybersecurity?</H1>
+                            <p>Watch this educational video to find out</p>
+                        </div>
+                        <div class="col-lg-12">
+
+                            <video controls>
+                                <source src="whatiscs.mp4" type="">
+                            </video>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+  
+
+
+        
+        
+     
 
         <div class="bigwhiteline mt-5"></div>
-        <div class="row mt-5">
-            <div class="col-lg-4">
-                <div class="contactusform">
-                    <div class="phone">    
-                    <i class="fas fa-phone"></i>
-                    </div>
-                <span class="telnum">060/351-22-57</span>
-    
-                <div class="email">
-                    
-                    <i class="fas fa-envelope"></i> 
-                
-                </div>
-                <span class="emailthing">denis.mahmutovic@stu.ibu.edu.ba</span>
-                </div>
-    
-    
-                <div class="location">
-    
-                    <i class="fas fa-location"></i>
-                
-                </div>
-                <span class="locname">International Burch University</span>
-            </div>
-            
-       
         
-            <div class="col-lg-4">
-                <div class="contactusform">
-                    <div class="phone">    
-                    <i class="fas fa-phone"></i>
-                    </div>
-                <span class="telnum">060/351-22-57</span>
-    
-                <div class="email">
-                    
-                    <i class="fas fa-envelope"></i> 
-                
-                </div>
-                <span class="emailthing">denis.mahmutovic@stu.ibu.edu.ba</span>
-                </div>
-    
-    
-                <div class="location">
-    
-                    <i class="fas fa-location"></i>
-                
-                </div>
-                <span class="locname">International Burch University</span>
-            </div>
-            <div class="col-lg-4">
-                <div class="contactusform">
-                    <div class="phone">    
-                    <i class="fas fa-phone"></i>
-                    </div>
-                <span class="telnum">060/351-22-57</span>
-    
-                <div class="email">
-                    
-                    <i class="fas fa-envelope"></i> 
-                
-                </div>
-                <span class="emailthing">denis.mahmutovic@stu.ibu.edu.ba</span>
-                </div>
-    
-    
-                <div class="location">
-    
-                    <i class="fas fa-location"></i>
-                
-                </div>
-                <span class="locname">International Burch University</span>
-            </div>
-        </div>
+            
 
 
+        <footer class="foota">
+            <div class="container mt-2">
+                <div class="row">
+                    <div class="contactio">
+                        <h4>Contact us</h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="abus">
+                        
+                            <i class="fas fa-phone mt-5"></i> <p>060/351-22-57</p>
+                            <i class="fas fa-envelope"></i> <p>denis.mahmutovic@stu.ibu.edu.ba</p>
+                            <i class="fas fa-location"></i> <p>Sarajevo, Bosnia & Herzegowina, 71210</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6">
+                        <div class="socials">
+                            <i class="fa-brands fa-instagram mt-5"></i> <p>Follow us on instagram!</p>
+                            <i class="fa-brands fa-facebook"></i> <p>Follow us on facebook! </p>
+                            <i class="fa-brands fa-twitter"></i> <p>Follow us on Twitter!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
     <script src="https://kit.fontawesome.com/369264a9ca.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

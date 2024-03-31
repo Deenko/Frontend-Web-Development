@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0, 0, 0, 96%);
+  background-color: rgba(0, 0, 0, 94%);
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -164,15 +164,44 @@ body {
 .getstartedfr{
   margin-top: 1.5em;
   text-align: center;
+  color: black;
+}
+
+.getstartedfr p {
   color: white;
 }
 
+.modal-content{
+  border: none;
+}
+
+.learnCS{
+  margin-top: 8em;
+  display: flex;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.learnCS h1{
+  font-size: 60px;
+  font-weight: 300;
+
+  background: -webkit-linear-gradient(#a4d6ff, #008aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
 .mainbutton{
-  scale: 110%;
+  
+  scale:130%;
   margin-top: 1em;
   min-width: 180px;
   padding: 8px 70px;
-  max-width: 100%;
+  max-width: 150%;
   border-radius: 9px;
   border: 0;
   color: black;
@@ -181,6 +210,20 @@ body {
   font-weight: 500;
   box-shadow:#008aff 0 15px 30px -5px;
 }
+
+
+.mainbutton:hover{
+background: linear-gradient(#ffffff, #008aff);
+}
+
+
+
+
+
+
+
+
+
 
 .email{
   margin-top: 1.5em;
@@ -412,17 +455,45 @@ justify-content: center;
   color: white;
 }
 
-
-
-
-
-
 .cont-text {
   background: -webkit-linear-gradient(#a4d6ff, #008aff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
+
+footer {
+
+  i {
+    background: -webkit-linear-gradient(#a4d6ff, #008aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .contactio h4{
+    text-align: center;
+  
+    font-size: 48px;
+
+    background: -webkit-linear-gradient(#a4d6ff, #008aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  p{
+    font-family: "Roboto", sans-serif;
+  }
+
+  .abus{
+    text-align: center;
+  }
+
+  .socials{
+    text-align: center;
+  }
+}
+
 
 @keyframes slideUp {
   0% {
@@ -444,3 +515,5 @@ justify-content: center;
   margin: 2em;
   text-decoration: none;
 }
+
+
